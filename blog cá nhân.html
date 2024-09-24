@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        section {
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 2em;
+            color: #333;
+        }
+        small {
+            color: #777;
+            display: block;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        blockquote {
+            border-left: 5px solid #ccc;
+            padding-left: 10px;
+            margin-left: 20px;
+            font-style: italic;
+            color: #555;
+        }
+        form {
+            margin-top: 20px;
+            max-width: 600px;
+        }
+        label {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tiêu đề trang -->
+    <header>
+        <h1>Trang Blog Về Công Nghệ</h1>
+    </header>
+
+    <!-- Bài viết 1 -->
+    <section>
+        <article>
+            <h2>Bài Viết: Xu hướng công nghệ năm 2024</h2>
+            <small>Ngày: 24/09/2024 | Tác giả: Nguyễn Hoài Nhân</small>
+            <p>Năm 2024,công nghệ phát triển với tốc độ chóng mặt. Các lĩnh vực như trí tuệ nhân tạo,máy học,điện toán...</p>
+            
+            <!-- Phần bình luận -->
+            <h3>Bình luận:</h3>
+            <blockquote>
+                <strong>Trần Long:</strong> Đây là một bài viết rất hay, tôi đồng ý rằng AI sẽ là xu hướng hàng đầu trong tương lai.
+            </blockquote>
+
+            <!-- Form thêm bình luận -->
+            <h3>Thêm bình luận:</h3>
+            <form action="#" method="POST">
+                <label for="name1">Tên của bạn:</label>
+                <input type="text" id="name1" name="name1" placeholder="Nhập tên của bạn" required>
+
+                <label for="comment1">Bình luận:</label>
+                <textarea id="comment1" name="comment1" rows="5" placeholder="Nhập nội dung bình luận" required></textarea>
+
+                <button type="submit">Gửi bình luận</button>
+            </form>
+        </article>
+    </section>
+
+</body>
+</html>
